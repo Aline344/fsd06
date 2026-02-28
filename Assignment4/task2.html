@@ -1,73 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 </head>
+
 <body>
-    
-        <h2> pizza Order Form</h2>
-    <form>
-       <label for="name">First Name:</label>
-       <input type="text" id="name" name="name"><br><br>
-       <label for="lastname">Last Name:</label>
-       <input type="text" id ="lastname" name="lastname"><br><br>
-       <label for ="EmailAdress">Email Address:</label>
-       <input type="email" id ="EmailAdress" name="EmailAdress"><br><br>
-       <label for ="Contactnumber">Contact Number:</label>
-       <input type="tel" id ="Contactnumber" name="Contactnumber"><br><br>
-       <label for="pdd">Preferred Delivery Date:</label>
-       <input type="date" id="pdd" name="pdd"><br><br>
-       <label for="size">Size</label><br>
-         <input type="radio" id="small" name="size" value="small">
-         <label>Small</label>
-         <input type="radio" id="medium" name="size" value="medium">
-         <label>Medium</label>
-         <input type="radio" id="large" name="size" value="large">
-         <label>Large</label><br><br>
-
-       <label for="flavor">Flavor:</label><br><br>
-            <input type="checkbox" id="Hawaiian(php 150.00)" name="flavor" value="Hawaiian">
-            <span>Hawaiian (PHP 150.00)</span>
-            <select>
-                <option value="1">1</option>
-                <option value="2">2</option> 
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-              </select><br><br>
-            <input type="checkbox" id="Pepperoni(php 140.00)" name="flavor" value="Pepperoni">
-            <span>Pepperoni (PHP 140.00)</span>
-            <select>
-                <option value="1">1</option>
-                <option value="2">2</option> 
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-              </select><br><br>
-            <input type="checkbox" id="Vegetable(php 130.00)" name="flavor" value="Veggie">
-            <span>Vegetable (PHP 130.00)</span>
-            <select>
-                <option value="1">1</option>
-                <option value="2">2</option> 
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-              </select><br><br> 
-              <label for ="ccn">Credit Card Number:</label>
-              <input type="text" id="ccn" name="ccn"><br><br>
-              <label for="pin">PIN:</label>
-                <input type="password" id="pin" name="pin"><br><br>
-                <label>Aditional note:</label><br>
-                <textarea name="note" id="note" ></textarea><br><br>
-                <button type="Submit">Submit Order</button>
-                <button type="Reset">Reset</button>
-         </form>     
-         
-
-
-
-        
+  <h2>pizza Order Form</h2>
+  <form>
+    <div>
+      <label for="name">First Name:</label>
+      <input type="text" id="name" name="name">
+    </div>
+    <br>
+    <div>
+      <label for="lastname">Last Name:</label>
+      <input type="text" id="lastname" name="lastname">
+    </div>
+    <br>
+    <div>
+      <label for="EmailAdress">Email Address:</label>
+      <input type="email" id="EmailAdress" name="EmailAdress">
+    </div>
+    <br>
+    <div>
+      <label for="Contactnumber">Contact Number:</label>
+      <input type="tel" id="Contactnumber" name="Contactnumber">
+    </div>
+    <br>
+    <div>
+      <label for="pdd">Preferred Delivery Date:</label>
+      <input type="date" id="pdd" name="pdd">
+    </div>
+    <br>
+    <div>
+      <label>Size:</label>
+      <div>
+        <span>
+          <input type="radio" id="small" name="size" value="small">
+          <label for="small">Small</label>
+        </span>
+        <span>
+          <input type="radio" id="medium" name="size" value="medium">
+          <label for="medium">Medium</label>
+        </span>
+        <span>
+          <input type="radio" id="large" name="size" value="large">
+          <label for="large">Large</label>
+        </span>
+      </div>
+    </div>
+    <br>
+    <div>
+      <label>Flavor:</label>
+      <div>
+        <div>
+          <input type="checkbox" id="hawaiian" name="flavor" value="Hawaiian">
+          <span>Hawaiian (PHP 150.00)</span>
+          <select>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+        </div>
+        <div>
+          <input type="checkbox" id="pepperoni" name="flavor" value="Pepperoni">
+          <span>Pepperoni (PHP 140.00)</span>
+          <select>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+        </div>
+        <div>
+          <input type="checkbox" id="vegetable" name="flavor" value="Veggie">
+          <span>Vegetable (PHP 130.00)</span>
+          <select>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div>
+      <label for="ccn">Credit Card Number:</label>
+      <input type="text" id="ccn" name="ccn">
+    </div>
+    <br>
+    <div>
+      <label for="pin">PIN:</label>
+      <input type="password" id="pin" name="pin">
+    </div>
+    <br>
+    <div>
+      <label for="note">Additional note:</label>
+      <div>
+        <textarea name="note" id="note"></textarea>
+      </div>
+    </div>
+    <br>
+    <div>
+      <button type="submit">Submit Order</button>
+      <button type="reset">Reset</button>
+    </div>
+  </form>
 </body>
+
 </html>
