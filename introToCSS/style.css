@@ -1,0 +1,18 @@
+*{
+    background-color:rgb(228, 219, 219);
+}
+div{
+    background-color: aqua;
+}
+.abc{
+    background-color: antiquewhite;
+    border: 5px double red;
+    border-radius: 5ch;
+}
+h1{
+    background-color: blue;
+}
+
+#head1 {
+    background-color: red;
+}
