@@ -1,0 +1,57 @@
+body {
+    margin: 10px;
+    padding: 0;
+}
+
+section {
+    background-color: skyblue;
+
+    border: 5px solid skyblue;
+    border-radius: 30px;
+    width: 590px;
+    margin: 0 auto;
+    padding: 0 auto;
+
+}
+
+.enqiury_from {
+    width: 60%;
+    margin: 0 auto;
+
+}
+
+.Header {
+    text-align: center;
+}
+
+h2 {
+    margin: 10px;
+}
+
+.Paragraph {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+
+table {
+    width: 100%;
+}
+
+td {
+    padding: 5px;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+#submitbutton {
+    margin: 30px auto;
+    padding: 10px 50px;
+    background-color: #101113;
+    color: white;
+    border: 2px solid black;
+    border-radius: 8px;
+    text-align: center;
+}

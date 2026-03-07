@@ -1,11 +1,10 @@
 body {
-    background-color: #f8fafc;
-     color: #2961bb;
+    background-color: rgb(248, 250, 252);
+    color: rgb(41, 97, 187);
+     text-align: center;
     
-    text-align: center;
     
-    
-}
+}       
 
 header {
     background-color: rgb(227, 231, 244);
@@ -26,8 +25,7 @@ footer {
     background-color: rgb(241, 245, 249);
     border: 2px solid rgb(203, 213, 225);
     border-radius: 15px;
-    padding: 20px; 
-
+ 
 
 
  h2 {
@@ -43,8 +41,9 @@ footer {
 
 table {
     background-color: rgb(255, 255, 255);
-    border: 2px solid rgb(203, 213, 225);
+    border: 2px solid rgb(188, 199, 212);
     border-radius: 10px;
+    
       
 }
 
@@ -62,3 +61,4 @@ th {
     background-color: rgb(226, 232, 240);
     border: 1px solid rgb(203, 213, 225);
 }
+

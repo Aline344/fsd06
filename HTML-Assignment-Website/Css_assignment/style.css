@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(96, 240, 101);
+    
+}
+    
+#submitButton {
+  padding:5px 65px;
+  border: 1px solid rgb(18, 151, 21);
+  border-radius: 10px;
+  background-color: rgb(18, 151, 21);
+  color:white;
+  margin: 0 auto;
+}
+.frombox{
+  background-color: rgb(255, 255, 255);
+  padding: 1cqmax;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 10px;
+  width: 15%;
+  height: 15%;
+  border: 1px solid rgb(1, 91, 40);
+  text-align: center;
+
+}
+div{
+    margin: 5px 0px;
+    padding: 5px 0px;
+}
+    
+.submitButton{
+  margin: 5px 0px;
+  padding: 5px 10px;
+  border-radius:  0px;
+
+}
+h2{
+  margin: auto;
+  text-align: center;
+  color: rgb(1, 91, 40);
+  font-family: 'Courier New', Courier, monospace;
+}
+
