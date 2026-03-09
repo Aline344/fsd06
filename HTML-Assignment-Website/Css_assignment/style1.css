@@ -1,6 +1,11 @@
-body {
+body{
     margin: 10px;
     padding: 0;
+}
+.firstdiv{
+     width: 80%;
+    margin: 0 auto;
+    
 }
 
 section {
@@ -10,15 +15,7 @@ section {
     border-radius: 30px;
     width: 590px;
     margin: 0 auto;
-    padding: 0 auto;
-
-}
-
-.enqiury_from {
-    width: 60%;
-    margin: 0 auto;
-
-}
+    padding: 0 auto;}
 
 .Header {
     text-align: center;
@@ -33,25 +30,38 @@ h2 {
     margin-bottom: 20px;
 }
 
-
+.bigbracket{
+    padding: 3%;
+    width: 80%;
+}
+.big{
+    width: 95%;
+     padding: 3%;
+}
 table {
     width: 100%;
+   
 }
 
 td {
-    padding: 5px;
+    padding: 10px;
 }
 
 label {
     margin-bottom: 10px;
 }
-
+.big1{
+    width: 87%;
+     padding: 3%;
+}
 #submitbutton {
     margin: 30px auto;
     padding: 10px 50px;
-    background-color: #101113;
+    background-color: rgb(16, 17, 19);
     color: white;
     border: 2px solid black;
     border-radius: 8px;
     text-align: center;
-}
+    margin-left: 150px;
+   
+} 

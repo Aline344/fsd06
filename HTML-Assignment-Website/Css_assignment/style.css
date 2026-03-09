@@ -1,22 +1,22 @@
 body{
-    background-color: rgb(96, 240, 101);
+    background-color: rgb(27, 139, 31);
     
 }
     
 #submitButton {
   padding:5px 65px;
-  border: 1px solid rgb(18, 151, 21);
+  border: 1px solid rgb(20, 126, 22);
   border-radius: 10px;
   background-color: rgb(18, 151, 21);
   color:white;
   margin: 0 auto;
 }
-.frombox{
+section{
   background-color: rgb(255, 255, 255);
   padding: 1cqmax;
   border-radius: 5px;
   margin: 0 auto;
-  margin-top: 10px;
+  margin-top: 30px;
   width: 15%;
   height: 15%;
   border: 1px solid rgb(1, 91, 40);
@@ -24,20 +24,20 @@ body{
 
 }
 div{
-    margin: 5px 0px;
-    padding: 5px 0px;
+    margin: 5px ;
+    padding: 5px ;
 }
     
 .submitButton{
-  margin: 5px 0px;
+  margin: 5px ;
   padding: 5px 10px;
-  border-radius:  0px;
+  border-radius:  1px;
 
 }
 h2{
   margin: auto;
   text-align: center;
   color: rgb(1, 91, 40);
-  font-family: 'Courier New', Courier, monospace;
+ 
 }
 
