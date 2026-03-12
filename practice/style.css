@@ -3,6 +3,8 @@ body{
     font-family:Playwrite CU Guides;
     background-color: #91bd23;
     margin: 20px;
+    text-align: center;
+    text-shadow: 1px 1px 0 rgb(89, 223, 16);
 }
 
 h3{

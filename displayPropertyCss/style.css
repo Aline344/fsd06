@@ -1,0 +1,57 @@
+/* .a{
+    width: 200px;
+    height: 200px;
+}
+#mydiv,
+#mydiv1,
+#mydiv2{
+    background-color: rgb(205, 226, 226);
+    border: 0.5px solid orange;
+    display: inline-block;
+}
+#myspan1
+{ 
+    width: 200px;
+    height: 200px;
+    background-color: rgb(205, 226, 226);
+    border: 2px solid orange;
+    display:inline;}
+    #myspan2{
+        width: 200px;
+        height: 200px;
+        background-color: rgb(212, 94, 30);
+         border: 2px solid orange;
+         display: inline-block;
+    } */
+     #outerbox{
+        height: 700px;
+        width: 700px;
+        border:3px solid black;
+     }
+    #Parent1{
+        /* height: 700px;
+        width: 700px;
+        border:1px solid black; */
+        /* display: flex; */
+        /* justify-content: space-around; sabke around me ek space aa jata hai*/
+        /* justify-self: baseline;ek lene mai hota hai */
+        /* justify-content: baseline;
+        align-items: center;
+        flex-direction: column;
+        gap: 15px; */
+        display: grid;
+        grid-template-columns:150px 200px 150px 200px ;
+        justify-items: center;
+        align-items: center;
+        row-gap: 40px;
+
+    }
+    .p1child{
+        width: 50px;
+        height: 50px;
+        border: 1px solid black;
+        background-color: blue;
+        color: aliceblue;
+        font-size: larger;
+       
+    }

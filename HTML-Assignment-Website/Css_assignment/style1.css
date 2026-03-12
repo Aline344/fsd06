@@ -31,12 +31,12 @@ h2 {
 }
 
 .bigbracket{
-    padding: 3%;
-    width: 80%;
+    padding: 8%;
+    width: 98%;
 }
 .big{
-    width: 95%;
-     padding: 3%;
+   width: 95%;
+     padding: 5%;
 }
 table {
     width: 100%;
@@ -51,8 +51,8 @@ label {
     margin-bottom: 10px;
 }
 .big1{
-    width: 87%;
-     padding: 3%;
+    width: 99%;
+     padding: 5%;
 }
 #submitbutton {
     margin: 30px auto;
