@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#main{
+    background-color: rgb(55, 71, 244);
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    height: 100vh;
+
+     align-items:center ;
+}
+.card{
+    background-color: rgb(249, 251, 252);
+    max-height: fit-content;
+    padding: 20px;
+    border-radius: 10px;
+    display: grid;
+    gap: 20px;
+    width: 300px;
+   
+}
+.form-field{
+display: flex;
+gap: 5px;
+align-items: center;
+border-bottom: 1px solid gray;
+}
+.form-field input{
+    border: none;
+    background: transparent;
+    outline: none;
+    width: 100px;
+}
+.terms{
+    display: flex;
+    justify-content: space-between;
+
+}
+.submitButton button{
+    border: 1px solid skyblue;
+    background-color: skyblue;
+    width: 100%;
+    padding:10px ;
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+
+}
+.referencelink{
+    text-align: center;
+}
+.submitButton button:active{
+    background-color: aliceblue;
+    color: skyblue;
+    border: 2px solid skyblue;
+    font-weight: bolder;
+}
+.submitButton button:hover{
+     background-color: aliceblue;
+    color: skyblue;
+}
+.form-field input:focus{
+    border: 1px solid skyblue;
+    border-radius: 1px;
+
+}
+a{
+    text-decoration: none;
+    color: skyblue;
+}
+
+
