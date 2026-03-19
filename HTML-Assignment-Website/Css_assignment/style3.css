@@ -9,14 +9,22 @@
 body {
     background-color: aliceblue;
     padding: 20px;
+   
 }
 
 #main {
     background-color: white;
     width: 800px;
-    margin: 0 auto;
+    height: 1050px;
+    margin: auto;
     display: flex;
-}
+     border:5px solid rgb(63, 92, 118);
+     border-radius: 5px;
+     box-shadow: 2px 0px 3px 0.3px  rgb(63, 92, 118) ;
+
+
+} 
+    
 
 .resume {
     background-color: #3f5c76;
@@ -26,6 +34,8 @@ body {
     display: flex;
     flex-direction: column;
     gap: 20px;
+     border:5px solid #3f5c76;
+
 }
 
 
@@ -45,11 +55,11 @@ body {
     border: 3px solid rgb(9, 8, 8);
 }
 #profileimages h3{
-    color: rgb(158, 194, 41);
+    color: rgb(209, 212, 199);
 }
 #profileimages h5 
 {
-    color: rgb(103, 172, 233);
+    color: rgb(13, 9, 2);
 
 }
 
@@ -65,11 +75,12 @@ body {
 }
 a{
     text-decoration: none;
-    color: skyblue;
+    color: rgb(195, 199, 201);
 }
 .form-field span{
     outline: none;
-   align-items: baseline;
+    display: inline-block;
+     align-items: baseline;
     flex-direction: column;
     border: none;
     background: transparent;
@@ -85,6 +96,8 @@ a{
     display: flex;
     flex-direction: column;
     gap: 10px;
+     border:5px solid #e6e9ec;
+    border-radius: 5px;
 }
 
 .aboutexp h2 {
@@ -110,12 +123,16 @@ a{
     gap: 10px;
 }
 #educationjorney h5{
-    color:#3f5c76 ;
+    color:rgb(70, 147, 214) ;
 }
 .education-left, .education-right {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    /* display: flex;
+    align-items: baseline;
+    gap: 10px;
+    flex-direction: column; */
 }
 #certid{
     font-size: small;
