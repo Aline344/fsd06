@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+ 
+    
+;
+}
+
+body {
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+#main {
+    background-color: white;
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.resume {
+    background-color: #3f5c76;
+    color:rgb(200, 207, 213);
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+#profileimages {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 2px solid rgb(0, 0, 0);
+   
+}
+
+#profileimages img {
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    border: 3px solid rgb(9, 8, 8);
+}
+#profileimages h3{
+    color: rgb(158, 194, 41);
+}
+#profileimages h5 
+{
+    color: rgb(103, 172, 233);
+
+}
+
+.form-field {
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-field h4 {
+    color: rgb(194, 120, 23);
+   
+}
+a{
+    text-decoration: none;
+    color: skyblue;
+}
+.form-field span{
+    outline: none;
+   align-items: baseline;
+    flex-direction: column;
+    border: none;
+    background: transparent;
+}
+
+
+
+.aboutexp {
+    background-color: #e2e8ed;
+    color: #333;
+    width: 80%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.aboutexp h2 {
+    color: rgb(49, 75, 97);
+    padding-bottom: 5px;
+}
+
+
+#expriencejorney {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#expriencejorney h5{
+     color: #3f5c76;
+     font-size: smaller  ;
+
+}
+#educationjorney{
+  
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#educationjorney h5{
+    color:#3f5c76 ;
+}
+.education-left, .education-right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#certid{
+    font-size: small;
+}
