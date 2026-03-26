@@ -1,0 +1,13 @@
+.container {
+    border: 1px solid #e6e9ec;
+    width: 10px;
+    height: 20px;
+    overflow: hidden;
+    text-wrap-mode: nowrap;
+         
+}
+.container:hover {
+    width: 200px;
+    transition: width 0.3s linear  2s;
+    
+}
